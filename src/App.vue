@@ -1,28 +1,47 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <NavBar/>
+    <router-view/>
   </div>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavBar from '@/components/NavBar.vue'
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
+    NavBar
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+<style >
+html {
+  -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
+body{
+  background-image: url("/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#app {
+  box-sizing: border-box;
+  width: 800px;
+ 
+  margin: 0 auto;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+a {
+  color: #665007;
+  font-weight: 600;
+  background-color: transparent;
+  font-size: 20px;
+  text-decoration: none;
+}
+
 </style>
