@@ -1,26 +1,26 @@
 <template>
   <div id="app">
-    <NavBar/>
-    <router-view/>
+    <NavBar />
+    <router-view />
   </div>
 </template>
 <script>
-import NavBar from '@/components/NavBar.vue'
+import NavBar from "@/components/NavBar.vue";
 
 export default {
   components: {
-    NavBar
-  }
-}
+    NavBar,
+  },
+};
 </script>
-<style >
+<style>
 html {
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-body{
-  background-image: url("/background.jpeg");
+body {
+  background-image: url("/background1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -28,7 +28,7 @@ body{
 #app {
   box-sizing: border-box;
   width: 800px;
- 
+
   margin: 0 auto;
 }
 hr {
@@ -43,5 +43,4 @@ a {
   font-size: 20px;
   text-decoration: none;
 }
-
 </style>
