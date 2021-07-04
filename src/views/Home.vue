@@ -15,10 +15,15 @@
           This website aims to <br />
           introduce me to everyone !
         </p>
+        <router-link :to="{ name: 'blog' }">
+          <q-btn color="orange-4" icon-right="book" label="My Blog"></q-btn>
+        </router-link>
+        &nbsp;
+
         <router-link :to="{ name: 'about' }">
           <q-btn
             color="yellow-10"
-            icon-right="send"
+            icon-right="person "
             label="More about me"
           ></q-btn>
         </router-link>
