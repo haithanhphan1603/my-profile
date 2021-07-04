@@ -1,19 +1,24 @@
 <template>
-  <div id="q-app">
-    <div>
-      <q-card class="my-card">
-        <q-parallax
-          src="https://cdn.quasar.dev/img/parallax1.jpg"
-          :height="150"
-        ></q-parallax>
+  <router-link :to="{ name: 'blog-view', params: { id: blog.id } }">
+    <div id="q-app">
+      <div>
+        <q-card class="my-card q-mt-xl">
+          <q-parallax
+            src="https://cdn.quasar.dev/img/parallax1.jpg"
+            :height="100"
+          ></q-parallax>
 
-        <q-card-section>
-          <div class="text-h6">How did I get into programming?</div>
-          <div class="text-subtitle2">24/06/2021</div>
-        </q-card-section>
-      </q-card>
+          <q-card-section>
+            <div class="text-h5">{{ blog.title }}</div>
+            <div class="text-h6">{{ blog.discription }}</div>
+            <div class="text-subtitle2">{{ blog.time }}</div>
+            <div class="text-subtitle2">{{ blog.date }}</div>
+            <div class="text-subtitle2">{{ blog.location }}</div>
+          </q-card-section>
+        </q-card>
+      </div>
     </div>
-  </div>
+  </router-link>
 </template>
 <style scoped>
 .my-card:hover {
@@ -21,3 +26,10 @@
   box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2), 0 1px 15px 0 rgba(0, 0, 0, 0.19);
 }
 </style>
+<script>
+export default {
+  props: {
+    blog: Object,
+  },
+};
+</script>

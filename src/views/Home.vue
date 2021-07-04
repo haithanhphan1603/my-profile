@@ -31,8 +31,8 @@
         </div>
       </div>
 
-      <div class="col">
-        <br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <div class="col q-mt-xl">
+        <br /><br />
         <q-img src="/me.png" style="height: 650px; width: 500px"></q-img>
       </div>
     </div>
