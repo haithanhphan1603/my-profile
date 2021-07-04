@@ -21,6 +21,7 @@
           <p>Gender: {{ person.gender }}</p>
           <p>Phone: {{ person.phoneNumber }}</p>
           <p>Address: {{ person.address }}</p>
+          <p>Email: {{ person.mail }}</p>
         </q-tab-panel>
 
         <q-tab-panel name="two" class="panel-2">
@@ -85,6 +86,7 @@ export default {
         DOB: "16/03/2002",
         phoneNumber: "0328141680",
         address: "Hanoi, Vietnam",
+        mail: "haithanhphan163@gmail.com",
       },
       ratingModel: [3.5, 4, 4],
     };
