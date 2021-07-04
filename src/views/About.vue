@@ -5,7 +5,7 @@
         rounded
         src="/deptrai.jpeg"
         :ratio="4 / 3"
-        class="q-mt-xl shadow-18"
+        class=" shadow-18"
         style="height:550px; width:350px; display: flex;"
       ></q-img>
       <Profile />

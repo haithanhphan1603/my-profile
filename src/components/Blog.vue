@@ -1,6 +1,6 @@
 <template>
-  <div id="q-app" class="q-mt-xl">
-    <div class="q-pa-md">
+  <div id="q-app">
+    <div>
       <q-card class="my-card">
         <q-parallax
           src="https://cdn.quasar.dev/img/parallax1.jpg"

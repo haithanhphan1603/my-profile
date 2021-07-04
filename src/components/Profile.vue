@@ -1,5 +1,5 @@
 <template>
-  <div class="q-mt-xl q-ml-lg">
+  <div class=" q-ml-lg">
     <q-card class="my-card">
       <q-card-section class="card-section">
         <div class="text-h4 text-orange-8">MORE ABOUT ME!</div>
