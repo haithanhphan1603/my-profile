@@ -10,7 +10,7 @@
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style scoped>
@@ -21,7 +21,7 @@ export default {}
   height: 60px;
 }
 .nav > .brand {
-  font-family: 'Lobster';
+  font-family: "Lobster";
   font-weight: 700;
   font-size: 2.5em;
   color: #443a0e;
@@ -34,10 +34,13 @@ export default {}
   text-decoration: none;
 }
 .nav > .router-link {
-  font-size: 'Lobster';
+  font-size: "Lobster";
   color: #221c01;
-  font-weight:500;
+  font-weight: 500;
   font-size: 1.4em;
   text-decoration: none;
+}
+a:hover {
+  color: #a3670d;
 }
 </style>
