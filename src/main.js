@@ -5,8 +5,18 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import "./quasar";
+import { scroll } from "quasar";
+
+const { setScrollPosition, getScrollTarget } = scroll;
 
 Vue.config.productionTip = false;
+
+const scrollTo = (elementId) => {
+  const el = document.getElementById(elementId);
+  const offset = el.offsetTop;
+  const target = getScrollTarget(el);
+  setScrollPosition(target, offset, 300);
+};
 
 const requireComponent = require.context(
   "./components",
@@ -23,6 +33,7 @@ requireComponent.keys().forEach((fileName) => {
 
   Vue.component(componentName, componentConfig.default || componentConfig);
 });
+Vue.prototype.$scrollTo = scrollTo;
 
 new Vue({
   router,

@@ -1,15 +1,17 @@
 <template>
   <div id="app">
     <NavBar />
-    <router-view class="q-mt-xl" />
+    <router-view />
+    <Footer />
   </div>
 </template>
 <script>
 import NavBar from "@/components/NavBar.vue";
-
+import Footer from "@/components/Footer.vue";
 export default {
   components: {
     NavBar,
+    Footer,
   },
 };
 </script>
@@ -19,15 +21,9 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-body {
-  background-image: url("/background1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 #app {
   box-sizing: border-box;
-  width: 800px;
 
   margin: 0 auto;
 }
@@ -37,7 +33,7 @@ hr {
   overflow: visible;
 }
 a {
-  color: #665007;
+  color: black;
   font-weight: 600;
   background-color: transparent;
   font-size: 20px;

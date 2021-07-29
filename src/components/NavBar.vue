@@ -1,46 +1,69 @@
 <template>
-  <div id="nav" class="nav">
-    <router-link to="/" class="brand">Hai corp.</router-link>
+  <div id="navbar" class="row nav">
+    <div class="col-9">
+      <router-link class="brand" :to="{ name: 'home' }">Hai.P </router-link>
+    </div>
     <div class="router-link">
-      <router-link :to="{ name: 'home' }">Home</router-link> |
-      <router-link :to="{ name: 'about' }">About</router-link> |
-      <router-link :to="{ name: 'blog' }">Blog</router-link>
+      <router-link class="col-2" :to="{ name: 'home' }">HOME</router-link>
+      <router-link class="col-2 q-ml-lg" :to="{ name: 'about' }"
+        >ABOUT</router-link
+      >
+      <router-link class="col-2 q-ml-lg" :to="{ name: 'blog' }"
+        >BLOG</router-link
+      >
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  name: "NavBar",
+};
 </script>
 
 <style scoped>
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 60px;
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
-.nav > .brand {
+.nav .brand {
+  font-size: 34px;
+  font-weight: bold;
   font-family: "Lobster";
-  font-weight: 700;
-  font-size: 2.5em;
-  color: #443a0e;
-  text-decoration: none;
+  color: #f5c6aa;
 }
+.nav {
+  background-color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 .nav .nav-item {
   box-sizing: border-box;
   margin: 0 5px;
-  color: #443a0e;
+  color: #835151;
   text-decoration: none;
 }
-.nav > .router-link {
-  font-size: "Lobster";
-  color: #221c01;
-  font-weight: 500;
-  font-size: 1.4em;
-  text-decoration: none;
+p {
+  font-family: "Avenir LT Std";
+  font-size: 17px;
+}
+a {
+  font-family: "Avenir LT Std";
+  color: black;
+  font-size: 17px;
+  font-weight: lighter;
 }
 a:hover {
   color: #a3670d;
 }
 </style>
+<script></script>

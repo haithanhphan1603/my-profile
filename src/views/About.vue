@@ -1,23 +1,166 @@
 <template>
-  <div id="q-app">
-    <div class="row">
-      <q-img
-        rounded
-        src="/deptrai.jpeg"
-        :ratio="4 / 3"
-        class=" shadow-18"
-        style="height:550px; width:350px; display: flex;"
-      ></q-img>
-      <Profile />
+  <div class="col" id="about">
+    <div class="row" id="resume">
+      <q-icon
+        class="q-mt-xs text-deep-orange-12"
+        name="mdi-square"
+        size="lg"
+      ></q-icon>
+      <p class="text-h3">
+        Resume
+      </p>
     </div>
+    <br />
+
+    <p class="text-h4">
+      Contact
+    </p>
+    <q-card class="my-card q-mt-xl">
+      <q-card-section>
+        <div class="q-mt-lg q-ml-xl">
+          <p class="text-h5 text-deep-orange-12 text-bold">Address</p>
+          <p class="text-h7">{{ person.address }}</p>
+          <p class="text-h5 text-deep-orange-12 text-bold">Phone</p>
+          <p class="text-h7">{{ person.phone }}</p>
+          <p class="text-h5 text-deep-orange-12 text-bold">E-mail</p>
+          <p class="text-h7">{{ person.mail }}</p>
+        </div>
+      </q-card-section>
+    </q-card>
+    <p class="text-h4 q-mt-xl">
+      Education
+    </p>
+    <q-card class="my-card q-mt-xl">
+      <q-card-section>
+        <div class="row q-mt-lg q-ml-xl">
+          <div class="col">
+            <p class="text-h5 text-deep-orange-12 text-bold">2021-Present</p>
+            <p class="text-h7">{{ person.university }}</p>
+            <p class="text-subtitle1">{{ person.degree }}</p>
+          </div>
+          <div class="col">
+            <p class="text-h7 q-mt-xl" style="max-width: 300px;">
+              I am a sophomore at Hanoi University. The forerunner of Vietnam
+              University of Foreign Languages, HANU is a university with good
+              training in foreign languages as well as majors.
+            </p>
+          </div>
+        </div>
+      </q-card-section>
+    </q-card>
+    <q-card class="my-card q-mt-xl">
+      <q-card-section>
+        <div class="row q-mt-lg q-ml-xl">
+          <div class="col">
+            <p class="text-h5 text-deep-orange-12 text-bold">
+              Professional Skillset
+            </p>
+            <div class="row">
+              <q-icon
+                class="q-mt-xs text-deep-orange-12"
+                name="mdi-square"
+                size="xs"
+              ></q-icon
+              >&nbsp;
+              <p class="text-subtitle1">
+                Critical thinking
+              </p>
+
+              <q-icon
+                class="q-ml-xl q-mt-xs text-deep-orange-12"
+                name="mdi-square"
+                size="xs"
+              ></q-icon
+              >&nbsp;
+              <p class="text-subtitle1">
+                Eager to learn
+              </p>
+            </div>
+            <div class="row">
+              <q-icon
+                class="q-mt-xs text-deep-orange-12"
+                name="mdi-square"
+                size="xs"
+              ></q-icon
+              >&nbsp;
+              <p class="text-subtitle1">
+                Teamwork and cooparation
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row q-mt-lg q-ml-xl">
+          <div class="col">
+            <p class="text-h5 text-deep-orange-12 text-bold">
+              Languages
+            </p>
+            <div class="row">
+              <q-icon
+                class="q-mt-xs text-deep-orange-12"
+                name="mdi-square"
+                size="xs"
+              ></q-icon
+              >&nbsp;
+              <p class="text-subtitle1">
+                Vietnam (native)
+              </p>
+
+              <q-icon
+                class="q-ml-xl q-mt-xs text-deep-orange-12"
+                name="mdi-square"
+                size="xs"
+              ></q-icon
+              >&nbsp;
+              <p class="text-subtitle1">
+                English (proficient)
+              </p>
+            </div>
+          </div>
+        </div>
+      </q-card-section>
+    </q-card>
   </div>
 </template>
-
 <script>
-import Profile from "@/components/Profile.vue";
 export default {
-  components: {
-    Profile,
+  data() {
+    return {
+      person: {
+        address: "Hanoi, Vietnam",
+        phone: "0328141680",
+        mail: "haithanhphan163@gmail.com",
+        university: "Hanoi University",
+        degree: "Computer Science",
+      },
+    };
   },
 };
 </script>
+<style scoped>
+#about {
+  background-color: #ffe7cf;
+  padding-top: 100px;
+  padding-left: 350px;
+  padding-right: 350px;
+  padding-bottom: 100px;
+}
+
+.text-h3,
+.text-h5 {
+  font-family: "Poppins";
+  font-weight: 900;
+}
+.my-card {
+  font-family: "Avenir LT Std";
+  font-size: 20px;
+  line-height: 7px;
+}
+.text-h7 {
+  font-weight: 300;
+  line-height: 30px;
+}
+#resume {
+  padding-right: 180px;
+  padding-left: 240px;
+}
+</style>

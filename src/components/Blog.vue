@@ -3,14 +3,9 @@
     <div id="q-app">
       <div>
         <q-card class="my-card q-mt-xl">
-          <q-parallax
-            src="https://cdn.quasar.dev/img/parallax1.jpg"
-            :height="100"
-          ></q-parallax>
-
           <q-card-section>
             <div class="text-h5">{{ blog.title }}</div>
-            <div class="text-h6">{{ blog.discription }}</div>
+            <div class="text-h6">{{ blog.description }}</div>
             <div class="text-subtitle2">{{ blog.time }}</div>
             <div class="text-subtitle2">{{ blog.date }}</div>
             <div class="text-subtitle2">{{ blog.location }}</div>
