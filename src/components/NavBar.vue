@@ -35,7 +35,7 @@ export default {
 }
 .nav {
   background-color: white;
-  padding-left: 100px;
+  padding-left: 150px;
   padding-right: 100px;
   display: flex;
   align-items: center;
