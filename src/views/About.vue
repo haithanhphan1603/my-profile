@@ -52,7 +52,7 @@
       <q-card-section>
         <div class="row q-mt-lg q-ml-xl">
           <div class="col">
-            <p class="text-h5 text-deep-orange-12 text-bold">
+            <p class="text-h5  text-bold">
               Professional Skillset
             </p>
             <div class="row">
@@ -84,14 +84,14 @@
               ></q-icon
               >&nbsp;
               <p class="text-subtitle1">
-                Teamwork and cooparation
+                Team work & Collaboration
               </p>
             </div>
           </div>
         </div>
         <div class="row q-mt-lg q-ml-xl">
           <div class="col">
-            <p class="text-h5 text-deep-orange-12 text-bold">
+            <p class="text-h5 text-bold">
               Languages
             </p>
             <div class="row">
