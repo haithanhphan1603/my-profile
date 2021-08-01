@@ -141,8 +141,8 @@ export default {
 <style scoped>
 #about {
   background-color: #ffe7cf;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 20%;
+  padding-right: 20%;
   padding-top: 5%;
   padding-bottom: 5%;
 }
