@@ -1,6 +1,6 @@
 // eslint-disable-next-line vue/valid-template-root
 <template>
-  <div class="col-6 q-mt-xl">
+  <div>
     <div class="container">
       <q-card class="shadow-23">
         <q-card-section class="my-card">

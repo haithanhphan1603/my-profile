@@ -1,6 +1,6 @@
 <template>
-  <div class="col" id="about">
-    <div class="row" id="resume">
+  <div class="col content-center" id="about">
+    <div class="row justify-center" id="resume">
       <q-icon
         class="q-mt-xs text-deep-orange-12"
         name="mdi-square"
@@ -12,113 +12,115 @@
     </div>
     <br />
 
-    <p class="text-h4">
-      Contact
-    </p>
-    <q-card class="my-card q-mt-xl">
-      <q-card-section>
-        <div class="q-mt-lg q-ml-xl">
-          <p class="text-h5 text-deep-orange-12 text-bold">Address</p>
-          <p class="text-h7">{{ person.address }}</p>
-          <p class="text-h5 text-deep-orange-12 text-bold">Phone</p>
-          <p class="text-h7">{{ person.phone }}</p>
-          <p class="text-h5 text-deep-orange-12 text-bold">E-mail</p>
-          <p class="text-h7">{{ person.mail }}</p>
-        </div>
-      </q-card-section>
-    </q-card>
-    <p class="text-h4 q-mt-xl">
-      Education
-    </p>
-    <q-card class="my-card q-mt-xl">
-      <q-card-section>
-        <div class="row q-mt-lg q-ml-xl">
-          <div class="col">
-            <p class="text-h5 text-deep-orange-12 text-bold">2021-Present</p>
-            <p class="text-h7">{{ person.university }}</p>
-            <p class="text-subtitle1">{{ person.degree }}</p>
+    <div class="row-8 content-center">
+      <p class="text-h4 ">
+        Contact
+      </p>
+      <q-card class="my-card q-mt-xl " id="card-contact">
+        <q-card-section>
+          <div class="q-mt-lg q-ml-xl">
+            <p class="text-h5 text-deep-orange-12 text-bold">Address</p>
+            <p class="text-h6">{{ person.address }}</p>
+            <p class="text-h5 text-deep-orange-12 text-bold">Phone</p>
+            <p class="text-h6">{{ person.phone }}</p>
+            <p class="text-h5 text-deep-orange-12 text-bold">E-mail</p>
+            <p class="text-h6">{{ person.mail }}</p>
           </div>
-          <div class="col">
-            <p class="text-h7 q-mt-xl" style="max-width: 300px;">
-              I am a sophomore at Hanoi University. The forerunner of Vietnam
-              University of Foreign Languages, HANU is a university with good
-              training in foreign languages as well as majors.
-            </p>
-          </div>
-        </div>
-      </q-card-section>
-    </q-card>
-    <q-card class="my-card q-mt-xl">
-      <q-card-section>
-        <div class="row q-mt-lg q-ml-xl">
-          <div class="col">
-            <p class="text-h5  text-bold">
-              Professional Skillset
-            </p>
-            <div class="row">
-              <q-icon
-                class="q-mt-xs text-deep-orange-12"
-                name="mdi-square"
-                size="xs"
-              ></q-icon
-              >&nbsp;
-              <p class="text-subtitle1">
-                Critical thinking
+        </q-card-section>
+      </q-card>
+      <p class="text-h4 q-mt-xl ">
+        Education
+      </p>
+      <q-card class="my-card q-mt-xl " id="card-education">
+        <q-card-section>
+          <div class="row q-mt-lg q-ml-xl">
+            <div class="col">
+              <p class="text-h5 text-deep-orange-12 text-bold">2021-Present</p>
+              <p class="text-h6">{{ person.university }}</p>
+              <p class="text-subtitle1">{{ person.degree }}</p>
+            </div>
+            <div class="col">
+              <p class="text-h6 q-mt-xl" style="max-width: 300px;">
+                I am a sophomore at Hanoi University. The forerunner of Vietnam
+                University of Foreign Languages, HANU is a university with good
+                training in foreign languages as well as majors.
               </p>
+            </div>
+          </div>
+        </q-card-section>
+      </q-card>
+      <q-card class="my-card q-mt-xl">
+        <q-card-section>
+          <div class="row q-mt-lg q-ml-xl">
+            <div class="col">
+              <p class="text-h5  text-bold">
+                Professional Skillset
+              </p>
+              <div class="row">
+                <q-icon
+                  class="q-mt-xs text-deep-orange-12"
+                  name="mdi-square"
+                  size="xs"
+                ></q-icon
+                >&nbsp;
+                <p class="text-subtitle1">
+                  Critical thinking
+                </p>
 
-              <q-icon
-                class="q-ml-xl q-mt-xs text-deep-orange-12"
-                name="mdi-square"
-                size="xs"
-              ></q-icon
-              >&nbsp;
-              <p class="text-subtitle1">
-                Eager to learn
-              </p>
-            </div>
-            <div class="row">
-              <q-icon
-                class="q-mt-xs text-deep-orange-12"
-                name="mdi-square"
-                size="xs"
-              ></q-icon
-              >&nbsp;
-              <p class="text-subtitle1">
-                Team work & Collaboration
-              </p>
+                <q-icon
+                  class="q-ml-xl q-mt-xs text-deep-orange-12"
+                  name="mdi-square"
+                  size="xs"
+                ></q-icon
+                >&nbsp;
+                <p class="text-subtitle1">
+                  Eager to learn
+                </p>
+              </div>
+              <div class="row">
+                <q-icon
+                  class="q-mt-xs text-deep-orange-12"
+                  name="mdi-square"
+                  size="xs"
+                ></q-icon
+                >&nbsp;
+                <p class="text-subtitle1">
+                  Team work & Collaboration
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="row q-mt-lg q-ml-xl">
-          <div class="col">
-            <p class="text-h5 text-bold">
-              Languages
-            </p>
-            <div class="row">
-              <q-icon
-                class="q-mt-xs text-deep-orange-12"
-                name="mdi-square"
-                size="xs"
-              ></q-icon
-              >&nbsp;
-              <p class="text-subtitle1">
-                Vietnam (native)
+          <div class="row q-mt-lg q-ml-xl">
+            <div class="col">
+              <p class="text-h5 text-bold">
+                Languages
               </p>
+              <div class="row">
+                <q-icon
+                  class="q-mt-xs text-deep-orange-12"
+                  name="mdi-square"
+                  size="xs"
+                ></q-icon
+                >&nbsp;
+                <p class="text-subtitle1">
+                  Vietnam (native)
+                </p>
 
-              <q-icon
-                class="q-ml-xl q-mt-xs text-deep-orange-12"
-                name="mdi-square"
-                size="xs"
-              ></q-icon
-              >&nbsp;
-              <p class="text-subtitle1">
-                English (proficient)
-              </p>
+                <q-icon
+                  class="q-ml-xl q-mt-xs text-deep-orange-12"
+                  name="mdi-square"
+                  size="xs"
+                ></q-icon
+                >&nbsp;
+                <p class="text-subtitle1">
+                  English (proficient)
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-      </q-card-section>
-    </q-card>
+        </q-card-section>
+      </q-card>
+    </div>
   </div>
 </template>
 <script>
@@ -139,10 +141,10 @@ export default {
 <style scoped>
 #about {
   background-color: #ffe7cf;
-  padding-top: 100px;
-  padding-left: 350px;
-  padding-right: 350px;
-  padding-bottom: 100px;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .text-h3,
@@ -155,12 +157,8 @@ export default {
   font-size: 20px;
   line-height: 7px;
 }
-.text-h7 {
+.text-h6 {
   font-weight: 300;
   line-height: 30px;
-}
-#resume {
-  padding-right: 180px;
-  padding-left: 240px;
 }
 </style>

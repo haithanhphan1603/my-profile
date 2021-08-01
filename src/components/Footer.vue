@@ -1,30 +1,30 @@
 <template>
-  <div class="row" id="footer">
-    <p class="col-6 text-subtitle1">
+  <div class="row justify-center" id="footer">
+    <p class="col-5 text-subtitle1">
       © 2021 by Phan Hai.<br />
       Based on wix.com template.
     </p>
-    <div class="col-2">
+    <div class="col-2 ">
       <p class="text-bold q-ml-lg text-subtitle1">
         Call
       </p>
       <p class="text-body2">0328141680</p>
     </div>
-    <div class="col-2">
+    <div class="col-2 ">
       <p class="text-bold q-ml-xl text-subtitle1">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Write
+        &nbsp;Write
       </p>
       <p class="text-body2">
         haithanhphan163@gmail.com
       </p>
     </div>
-    <div class="col-2">
+
+    <div class="col-2 ">
       <p class="text-bold q-ml-xl text-subtitle1">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Follow
+        &nbsp;Follow
       </p>
       <ul>
         <li>
-          &nbsp;&nbsp;&nbsp;&nbsp;
           <a href="https://www.facebook.com/htp163/"
             ><q-icon name="mdi-facebook"></q-icon
           ></a>
@@ -42,8 +42,7 @@
 <style scoped>
 #footer {
   background-color: white;
-  padding-left: 100px;
-  padding-right: 100px;
+
   margin-top: 50px;
   font-family: "Avenir LT Std";
   line-height: 4px;

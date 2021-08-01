@@ -1,6 +1,6 @@
 <template>
-  <div id="navbar" class="row nav">
-    <div class="col-9">
+  <div id="navbar" class="row justify-center nav">
+    <div class="col-8">
       <router-link class="brand" :to="{ name: 'home' }">Hai.P </router-link>
     </div>
     <div class="router-link">
@@ -35,8 +35,7 @@ export default {
 }
 .nav {
   background-color: white;
-  padding-left: 150px;
-  padding-right: 100px;
+
   display: flex;
   align-items: center;
   height: 100px;
