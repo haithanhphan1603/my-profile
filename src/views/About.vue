@@ -148,6 +148,7 @@ export default {
 }
 
 .text-h3,
+.text-h4,
 .text-h5 {
   font-family: "Poppins";
   font-weight: 900;
