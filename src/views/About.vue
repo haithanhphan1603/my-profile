@@ -118,6 +118,44 @@
               </div>
             </div>
           </div>
+          <div class="row q-mt-lg q-ml-xl">
+            <div class="col">
+              <p class="text-h5 text-bold">
+                Programming Languages
+              </p>
+              <div class="row">
+                <q-icon
+                  class="q-mt-xs text-deep-orange-12"
+                  name="mdi-language-html5"
+                  size="xs"
+                ></q-icon
+                >&nbsp;
+                <p class="text-subtitle1">
+                  HTML5
+                </p>
+
+                <q-icon
+                  class="q-ml-xl q-mt-xs text-deep-orange-12"
+                  name="mdi-language-css3"
+                  size="xs"
+                ></q-icon
+                >&nbsp;
+                <p class="text-subtitle1">
+                  CSS
+                </p>
+
+                <q-icon
+                  class="q-ml-xl q-mt-xs text-deep-orange-12"
+                  name="mdi-language-javascript"
+                  size="xs"
+                ></q-icon
+                >&nbsp;
+                <p class="text-subtitle1">
+                  Javascript
+                </p>
+              </div>
+            </div>
+          </div>
         </q-card-section>
       </q-card>
     </div>
