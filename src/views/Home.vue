@@ -29,12 +29,20 @@
 
 <style scoped>
 @font-face {
+  font-family: Lobster;
+  src: url(../assets/font/Lobster/Lobster-Regular.ttf);
+}
+@font-face {
+  font-family: Avenir LT Std;
+  src: url(../assets/font/Avenir/AvenirLTStd-Book.otf);
+}
+@font-face {
   font-family: Source Code Pro;
-  src: url(/Users/fanhigh/Downloads/Source_Code_Pro/SourceCodePro-Light.ttf);
+  src: url(../assets/font/SourceCodePro/SourceCodePro-Light.ttf);
 }
 @font-face {
   font-family: Poppins;
-  src: url(/Users/fanhigh/Downloads/Poppins/Poppins-SemiBold.ttf);
+  src: url(../assets/font/Poppins/Poppins-SemiBold.ttf);
 }
 #home {
   height: 820px;
@@ -46,7 +54,7 @@ a {
   font-size: 20px;
 }
 h2 {
-  font-family: "Noto Sans";
+  font-family: "Poppins";
 }
 
 h3 {
