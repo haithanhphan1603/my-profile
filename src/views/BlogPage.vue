@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="row content-center justify-center">
     <h3 class="text-deep-orange-8">Welcome to my blog!!!!</h3>
     <h6>
       “Where the Internet is about availability of information, blogging is
@@ -34,6 +34,6 @@ export default {
 <style scoped>
 h3,
 h6 {
-  font-family: "Kalam";
+  font-family: "Avenir";
 }
 </style>
