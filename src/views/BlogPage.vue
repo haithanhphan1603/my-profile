@@ -1,10 +1,12 @@
 <template>
-  <div class="row content-center justify-center">
-    <h3 class="text-deep-orange-8">Welcome to my blog!!!!</h3>
-    <h6>
-      “Where the Internet is about availability of information, blogging is
-      about making information creation available to anyone.”-George Siemens
-    </h6>
+  <div class="col blog">
+    <div class="row content-center justify-center">
+      <h3 class="text-deep-orange-8">Welcome to my blog!!!!</h3>
+      <h6>
+        “Where the Internet is about availability of information, blogging is
+        about making information creation available to anyone.”-George Siemens
+      </h6>
+    </div>
     <Blog v-for="blog in blogs" :key="blog.id" :blog="blog" />
   </div>
 </template>
@@ -35,5 +37,12 @@ export default {
 h3,
 h6 {
   font-family: "Avenir";
+}
+.blog {
+  background-color: #fdf6f0;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 </style>
