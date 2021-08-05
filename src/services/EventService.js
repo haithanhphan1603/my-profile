@@ -1,15 +1,19 @@
 import axios from "axios";
 
 const apiClient = axios.create({
-  baseURL: `http://phanthanhhai.site/`,
+  baseURL: `http://localhost:3000/`,
   withCredentials: false, // This is the default
   headers: {
     Accept: "application/json",
     "Content-Type": "application/json",
   },
+  timeout: 10000,
 });
 
 export default {
+  getBolgs(perPage, page) {
+    return apiClient.get("/blogs?_limit=" + perPage + "&_page=" + page);
+  },
   getBlogs() {
     return apiClient.get("/blogs");
   },
