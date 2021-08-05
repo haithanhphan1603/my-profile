@@ -70,9 +70,6 @@ h6 {
   line-height: 40px;
   font-weight: 520;
 }
-.q-pd-md {
-  text-align: center;
-}
 </style>
 
 <script>

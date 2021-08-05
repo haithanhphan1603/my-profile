@@ -126,7 +126,7 @@
               <div class="row">
                 <q-icon
                   class="q-mt-xs text-deep-orange-12"
-                  name="mdi-language-html5"
+                  name="fab fa-html5"
                   size="xs"
                 ></q-icon
                 >&nbsp;
@@ -136,7 +136,7 @@
 
                 <q-icon
                   class="q-ml-xl q-mt-xs text-deep-orange-12"
-                  name="mdi-language-css3"
+                  name="fab fa-css3"
                   size="xs"
                 ></q-icon
                 >&nbsp;
@@ -146,7 +146,7 @@
 
                 <q-icon
                   class="q-ml-xl q-mt-xs text-deep-orange-12"
-                  name="mdi-language-javascript"
+                  name="fab fa-js-square"
                   size="xs"
                 ></q-icon
                 >&nbsp;
