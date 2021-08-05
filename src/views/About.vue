@@ -151,7 +151,7 @@
                 ></q-icon
                 >&nbsp;
                 <p class="text-subtitle1">
-                  Javascript
+                  JavaScript
                 </p>
               </div>
             </div>
