@@ -1,5 +1,6 @@
 <template>
   <div id="app col-lg ">
+    <PageLoader />
     <NavBar />
     <router-view />
     <Footer />
@@ -8,10 +9,12 @@
 <script>
 import NavBar from "@/components/NavBar.vue";
 import Footer from "@/components/Footer.vue";
+import PageLoader from "@/components/PageLoader.vue";
 export default {
   components: {
     NavBar,
     Footer,
+    PageLoader,
   },
 };
 </script>
