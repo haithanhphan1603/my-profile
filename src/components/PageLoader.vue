@@ -36,7 +36,7 @@ $colors: #8cc271, #69beeb, #f5aa39, #e9643b;
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #333;
+  background-color: #fdf6f0;
   z-index: 999;
 }
 // -----------------------------------------------------
