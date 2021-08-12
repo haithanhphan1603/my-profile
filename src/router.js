@@ -13,12 +13,14 @@ export default new Router({
       path: "/",
       name: "home",
       component: Home,
+      meta: { title: "PH site" },
     },
 
     {
       path: "/blogs/",
       name: "blog",
       component: Blog,
+      meta: { title: "Blogs" },
     },
     {
       path: "/blogs/:id",
@@ -30,6 +32,7 @@ export default new Router({
       path: "/about",
       name: "about",
       component: About,
+      meta: { title: "About" },
     },
   ],
 });
