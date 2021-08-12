@@ -19,9 +19,9 @@
       </p>
     </div>
 
-    <div class="col-2 ">
-      <p class="text-bold q-ml-xl text-subtitle1">
-        &nbsp;Follow
+    <div class="col-2 items-center">
+      <p class="text-bold q-ml-xl text-subtitle1 self-center">
+        &nbsp; Follow
       </p>
       <ul>
         <li>
@@ -29,10 +29,10 @@
             ><q-icon name="mdi-facebook"></q-icon
           ></a>
           <a href="https://www.linkedin.com/in/h%E1%BA%A3i-phan-a84259217/">
-            &nbsp;<q-icon name="mdi-linkedin"></q-icon
+            <q-icon name="mdi-linkedin"></q-icon
           ></a>
           <a href="https://github.com/haithanhphan1603">
-            &nbsp;<q-icon name="mdi-github"></q-icon
+            <q-icon name="mdi-github"></q-icon
           ></a>
         </li>
       </ul>
@@ -52,5 +52,11 @@ a {
 }
 ul {
   list-style-type: none;
+}
+ul li {
+  display: inline;
+}
+ul li a {
+  padding: 5px;
 }
 </style>

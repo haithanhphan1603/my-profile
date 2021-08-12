@@ -1,7 +1,7 @@
 <template>
   <div id="q-app">
-    <div class="row justify-evenly content-center " id="home">
-      <AvatarCard class="col-2" />
+    <div class="row justify-center content-center" id="home">
+      <AvatarCard class="col-4" />
       <div class="col-4">
         <q-img src="/hello.png" style="height: 74px; max-width: 110px"></q-img>
         <h2 class="text-brown-10 text-h2 no-margin">

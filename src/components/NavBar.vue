@@ -1,16 +1,14 @@
 <template>
-  <div id="navbar" class="row justify-center nav">
-    <div class="col-8">
+  <div id="navbar" class="row justify-evenly nav">
+    <div class="col-4">
       <router-link class="brand" :to="{ name: 'home' }">Hai.P </router-link>
     </div>
-    <div class="router-link">
-      <router-link class="col-2" :to="{ name: 'home' }">HOME</router-link>
-      <router-link class="col-2 q-ml-lg" :to="{ name: 'about' }"
-        >ABOUT</router-link
-      >
-      <router-link class="col-2 q-ml-lg" :to="{ name: 'blog' }"
-        >BLOG</router-link
-      >
+    <div class="router-link col-3">
+      <ul>
+        <li><router-link :to="{ name: 'home' }">HOME</router-link></li>
+        <li><router-link :to="{ name: 'about' }">ABOUT</router-link></li>
+        <li><router-link :to="{ name: 'blog' }">BLOG</router-link></li>
+      </ul>
     </div>
   </div>
 </template>
@@ -63,6 +61,16 @@ a {
 }
 a:hover {
   color: #a3670d;
+}
+ul {
+  list-style-type: none;
+  float: right;
+}
+ul li {
+  display: inline;
+}
+ul li a {
+  padding: 15px;
 }
 </style>
 <script></script>
