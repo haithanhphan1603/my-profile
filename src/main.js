@@ -6,7 +6,8 @@ import router from "./router";
 import store from "./store";
 import "./quasar";
 import { scroll } from "quasar";
-
+import VueMeta from "vue-meta";
+Vue.use(VueMeta);
 const { setScrollPosition, getScrollTarget } = scroll;
 
 Vue.config.productionTip = false;
@@ -41,4 +42,7 @@ new Vue({
   render: (h) => h(App),
 }).$mount("#app");
 
-//loading funcition//
+router.beforeEach((to, from, next) => {
+  document.title = to.meta.title;
+  next();
+});
