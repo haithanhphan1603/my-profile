@@ -32,7 +32,4 @@ a {
   font-size: 20px;
   text-decoration: none;
 }
-a:hover {
-  color: #a3670d;
-}
 </style>

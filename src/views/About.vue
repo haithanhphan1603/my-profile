@@ -28,6 +28,7 @@
           </div>
         </q-card-section>
       </q-card>
+
       <p class="text-h4 q-mt-xl ">
         Education
       </p>
@@ -49,6 +50,7 @@
           </div>
         </q-card-section>
       </q-card>
+
       <q-card class="my-card q-mt-xl">
         <q-card-section>
           <div class="row q-mt-lg q-ml-xl">
