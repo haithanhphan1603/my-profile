@@ -2,7 +2,7 @@
 <template>
   <div>
     <div class="container col">
-      <q-card class="shadow-23">
+      <q-card class="shadow-23" square>
         <q-card-section class="my-card">
           <q-img class="img" src="/me1.jpg" />
           <br />

@@ -16,7 +16,7 @@
       <p class="text-h4 ">
         Contact
       </p>
-      <q-card class="my-card q-mt-xl " id="card-contact">
+      <q-card class="my-card q-mt-xl " id="card-contact" square>
         <q-card-section>
           <div class="q-mt-lg q-ml-xl">
             <p class="text-h5 text-deep-orange-12 text-bold">Address</p>
@@ -32,7 +32,7 @@
       <p class="text-h4 q-mt-xl ">
         Education
       </p>
-      <q-card class="my-card q-mt-xl " id="card-education">
+      <q-card class="my-card q-mt-xl " id="card-education" square>
         <q-card-section>
           <div class="row q-mt-lg q-ml-xl">
             <div class="col">
@@ -51,7 +51,7 @@
         </q-card-section>
       </q-card>
 
-      <q-card class="my-card q-mt-xl">
+      <q-card class="my-card q-mt-xl" square>
         <q-card-section>
           <div class="row q-mt-lg q-ml-xl">
             <div class="col">
