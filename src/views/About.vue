@@ -35,12 +35,12 @@
       <q-card class="my-card q-mt-xl " id="card-education" square>
         <q-card-section>
           <div class="row q-mt-lg q-ml-xl">
-            <div class="col">
+            <div class="col-6">
               <p class="text-h5 text-deep-orange-12 text-bold">2021-Present</p>
               <p class="text-h6">{{ person.university }}</p>
               <p class="text-subtitle1">{{ person.degree }}</p>
             </div>
-            <div class="col">
+            <div class="col-6">
               <p class="text-h6 q-mt-xl" style="max-width: 300px;">
                 I am a sophomore at Hanoi University. The forerunner of Vietnam
                 University of Foreign Languages, HANU is a university with good
@@ -55,9 +55,7 @@
         <q-card-section>
           <div class="row q-mt-lg q-ml-xl">
             <div class="col">
-              <p class="text-h5  text-bold">
-                Professional Skillset
-              </p>
+              <p class="text-h5  text-bold">Professional Skillset</p>
               <div class="row">
                 <q-icon
                   class="q-mt-xs text-deep-orange-12"
@@ -65,9 +63,7 @@
                   size="xs"
                 ></q-icon
                 >&nbsp;
-                <p class="text-subtitle1">
-                  Critical thinking
-                </p>
+                <p class="text-subtitle1">Critical thinking</p>
 
                 <q-icon
                   class="q-ml-xl q-mt-xs text-deep-orange-12"
@@ -75,9 +71,7 @@
                   size="xs"
                 ></q-icon
                 >&nbsp;
-                <p class="text-subtitle1">
-                  Eager to learn
-                </p>
+                <p class="text-subtitle1">Eager to learn</p>
               </div>
               <div class="row">
                 <q-icon
@@ -86,17 +80,13 @@
                   size="xs"
                 ></q-icon
                 >&nbsp;
-                <p class="text-subtitle1">
-                  Team work & Collaboration
-                </p>
+                <p class="text-subtitle1">Team work & Collaboration</p>
               </div>
             </div>
           </div>
           <div class="row q-mt-lg q-ml-xl">
             <div class="col">
-              <p class="text-h5 text-bold">
-                Languages
-              </p>
+              <p class="text-h5 text-bold">Languages</p>
               <div class="row">
                 <q-icon
                   class="q-mt-xs text-deep-orange-12"
@@ -104,9 +94,7 @@
                   size="xs"
                 ></q-icon
                 >&nbsp;
-                <p class="text-subtitle1">
-                  Vietnam (native)
-                </p>
+                <p class="text-subtitle1">Vietnam (native)</p>
 
                 <q-icon
                   class="q-ml-xl q-mt-xs text-deep-orange-12"
@@ -114,17 +102,13 @@
                   size="xs"
                 ></q-icon
                 >&nbsp;
-                <p class="text-subtitle1">
-                  English (proficient)
-                </p>
+                <p class="text-subtitle1">English (proficient)</p>
               </div>
             </div>
           </div>
           <div class="row q-mt-lg q-ml-xl">
             <div class="col">
-              <p class="text-h5 text-bold">
-                Programming Languages
-              </p>
+              <p class="text-h5 text-bold">Programming Languages</p>
               <div class="row">
                 <q-icon
                   class="q-mt-xs text-deep-orange-12"
@@ -132,9 +116,7 @@
                   size="xs"
                 ></q-icon
                 >&nbsp;
-                <p class="text-subtitle1">
-                  HTML5
-                </p>
+                <p class="text-subtitle1">HTML5</p>
 
                 <q-icon
                   class="q-ml-xl q-mt-xs text-deep-orange-12"
@@ -142,9 +124,7 @@
                   size="xs"
                 ></q-icon
                 >&nbsp;
-                <p class="text-subtitle1">
-                  CSS
-                </p>
+                <p class="text-subtitle1">CSS</p>
 
                 <q-icon
                   class="q-ml-xl q-mt-xs text-deep-orange-12"
@@ -152,9 +132,7 @@
                   size="xs"
                 ></q-icon
                 >&nbsp;
-                <p class="text-subtitle1">
-                  JavaScript
-                </p>
+                <p class="text-subtitle1">JavaScript</p>
               </div>
             </div>
           </div>

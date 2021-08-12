@@ -18,7 +18,7 @@
           ></q-separator>
           <h5 class="text-brown-10 q-mt-l">FREELANCER</h5>
         </q-card-section>
-        <q-card-section class="q-pd-md">
+        <q-card-section class="icon">
           <a href="https://www.linkedin.com/in/h%E1%BA%A3i-phan-a84259217/">
             <q-icon name="fab fa-linkedin" size="25px"></q-icon
           ></a>
@@ -69,7 +69,7 @@ h5 {
   font-weight: 580;
 }
 
-.q-pd-md {
+.icon {
   text-align: center;
   letter-spacing: 3px;
 }
