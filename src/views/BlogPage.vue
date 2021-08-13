@@ -42,7 +42,7 @@ h6 {
   background-color: #fdf6f0;
   padding-left: 20%;
   padding-right: 20%;
-  padding-top: 5%;
+  padding-top: 10%;
   padding-bottom: 5%;
 }
 </style>

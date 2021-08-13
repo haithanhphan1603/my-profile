@@ -49,7 +49,7 @@
   background-image: url("/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 5%;
+  padding-top: 10%;
 }
 a {
   font-size: 20px;

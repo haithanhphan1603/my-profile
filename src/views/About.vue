@@ -161,7 +161,7 @@ export default {
   background-color: #ffe7cf;
   padding-left: 20%;
   padding-right: 20%;
-  padding-top: 5%;
+  padding-top: 10%;
   padding-bottom: 5%;
 }
 

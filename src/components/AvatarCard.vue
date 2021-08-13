@@ -7,13 +7,14 @@
           <q-img class="img" src="/me1.jpg" />
           <br />
           <h3 class="text-brown-10 no-margin">Phan <br />Hai</h3>
-          &nbsp;&nbsp;
+
           <q-separator
             class="col-2"
             color="pink"
             size="3px"
             style="width:90px;
-             margin: auto;"
+             margin: auto;
+             margin-top: 5%;"
             inset
           ></q-separator>
           <h5 class="text-brown-10 q-mt-l">FREELANCER</h5>
