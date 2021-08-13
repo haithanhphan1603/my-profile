@@ -46,7 +46,7 @@
   font-weight: bold;
 }
 .img {
-  width: 250px;
+  width: 220px;
   border-radius: 50%;
   display: block;
   margin-left: auto;
