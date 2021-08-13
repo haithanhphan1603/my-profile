@@ -43,6 +43,7 @@ new Vue({
 }).$mount("#app");
 
 router.beforeEach((to, from, next) => {
+  window.scrollTo(0, 0);
   document.title = to.meta.title;
   next();
 });
