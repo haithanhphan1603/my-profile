@@ -16,6 +16,9 @@ export default {
     Footer,
     PageLoader,
   },
+  created() {
+    document.title = "PH site";
+  },
 };
 </script>
 <style>
