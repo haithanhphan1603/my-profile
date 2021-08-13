@@ -1,6 +1,6 @@
 <template>
   <div id="q-app">
-    <div class="row justify-center content-center" id="home">
+    <div class="row justify-center" id="home">
       <AvatarCard class="col-4" />
       <div class="col-4">
         <q-img src="/hello.png" style="height: 74px; max-width: 110px"></q-img>
@@ -49,6 +49,7 @@
   background-image: url("/background.png");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 5%;
 }
 a {
   font-size: 20px;
