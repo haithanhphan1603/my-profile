@@ -1,9 +1,13 @@
 <template>
   <div id="q-app">
-    <div class="row justify-center" id="home">
-      <AvatarCard class="col-4" />
-      <div class="col-4">
-        <q-img src="/hello.png" style="height: 74px; max-width: 110px"></q-img>
+    <div class="row justify-center items-center" id="home">
+      <AvatarCard class="col-4" id="card" />
+      <div class="col-4 col-auto" id="text-card">
+        <q-img
+          src="/hello.png"
+          style="height: 74px; max-width: 110px"
+          class="img"
+        ></q-img>
         <h2 class="text-brown-10 text-h2 no-margin">
           Welcome to my website <br />
         </h2>
@@ -49,7 +53,6 @@
   background-image: url("/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 10%;
 }
 a {
   font-size: 20px;
@@ -70,6 +73,27 @@ h6 {
   font-family: "Source Code Pro";
   line-height: 40px;
   font-weight: 520;
+}
+@media only screen and (max-width: 768px) {
+  #home {
+    background-image: url("/screen-1.jpeg");
+    display: grid;
+    grid-template-rows: 50% 50%;
+    height: fit-content;
+    row-gap: 2%;
+  }
+  #card {
+    width: fit-content;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+  }
+  #text-card {
+    align-content: center;
+  }
+  .img {
+    display: none;
+  }
 }
 </style>
 

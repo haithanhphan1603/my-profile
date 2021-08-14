@@ -74,4 +74,6 @@ h5 {
   text-align: center;
   letter-spacing: 3px;
 }
+@media only screen and (max-width: 768px) {
+}
 </style>

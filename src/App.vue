@@ -1,5 +1,5 @@
 <template>
-  <div id="app col-lg ">
+  <div id="app ">
     <PageLoader />
     <NavBar />
     <router-view />
@@ -34,5 +34,10 @@ a {
   background-color: transparent;
   font-size: 20px;
   text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+  #app {
+    width: 100%;
+  }
 }
 </style>
