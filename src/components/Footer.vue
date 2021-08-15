@@ -1,26 +1,28 @@
 <template>
-  <div class="row justify-center" id="footer">
-    <p class="col-5 text-subtitle1">
-      © 2021 by Phan Hai.<br />
-      Based on wix.com template.
-    </p>
-    <div class="col-2 ">
+  <div class="row " id="footer">
+    <div class="col-sm-12 col-md-5">
+      <p class="   text-subtitle1">
+        © 2021 by Phan Hai.<br />
+        Based on wix.com template.
+      </p>
+    </div>
+    <div class=" col-sm-6  col-md-2 q-ml-xl">
       <p class="text-bold q-ml-lg text-subtitle1">
         Call
       </p>
       <p class="text-body2">0328141680</p>
     </div>
-    <div class="col-2 ">
+
+    <div class="col-sm-8 col-md-2 ">
       <p class="text-bold q-ml-xl text-subtitle1">
-        &nbsp;Write
+        &nbsp;&nbsp;Write
       </p>
       <p class="text-body2">
         haithanhphan163@gmail.com
       </p>
     </div>
-
-    <div class="col-2 items-center">
-      <p class="text-bold q-ml-xl text-subtitle1 self-center">
+    <div class="col-sm-4 col-md-2 ">
+      <p class="text-bold  text-subtitle1 q-ml-xl">
         &nbsp; Follow
       </p>
       <ul>
@@ -42,7 +44,7 @@
 <style scoped>
 #footer {
   background-color: white;
-
+  margin-left: 5%;
   margin-top: 50px;
   font-family: "Avenir LT Std";
   line-height: 4px;
@@ -58,5 +60,10 @@ ul li {
 }
 ul li a {
   padding: 5px;
+}
+@media only screen and (max-width: 768px) {
+  #footer {
+    padding: 5%;
+  }
 }
 </style>

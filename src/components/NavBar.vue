@@ -14,6 +14,11 @@
           >
         </li>
         <li class="nav-item">
+          <router-link :to="{ name: 'projects' }" class="nav-link"
+            >PROJECTS</router-link
+          >
+        </li>
+        <li class="nav-item">
           <router-link :to="{ name: 'blog' }" class="nav-link"
             >BLOG</router-link
           >
@@ -41,6 +46,9 @@ html {
 
 li {
   list-style: none;
+}
+a:focus {
+  color: #a3670d;
 }
 
 a {

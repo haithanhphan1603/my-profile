@@ -1,8 +1,8 @@
 <template>
   <div id="q-app">
     <div class="row justify-center items-center" id="home">
-      <AvatarCard class="col-4" id="card" />
-      <div class="col-4 col-auto" id="text-card">
+      <AvatarCard class="col-sm-10 col-md-4" id="card" />
+      <div class="col-sm-6 col-md-4 col-auto " id="text-card">
         <q-img
           src="/hello.png"
           style="height: 74px; max-width: 110px"
@@ -15,17 +15,19 @@
           I'm a freelance developer. Check out my work and feel free to get in
           touch with me.
         </h6>
-        <router-link :to="{ name: 'about' }"
-          ><q-btn color="pink-2" icon="person" label="About Me"></q-btn
-        ></router-link>
-        <router-link :to="{ name: 'blog' }"
-          ><q-btn
-            class="q-ml-sm"
-            color="deep-orange-3"
-            icon="book"
-            label="My Blog"
-          ></q-btn
-        ></router-link>
+        <div class="col-sm-12">
+          <router-link :to="{ name: 'about' }"
+            ><q-btn color="pink-2" icon="person" label="About Me"></q-btn
+          ></router-link>
+          <router-link :to="{ name: 'blog' }"
+            ><q-btn
+              class="q-ml-sm"
+              color="deep-orange-3"
+              icon="book"
+              label="My Blog"
+            ></q-btn
+          ></router-link>
+        </div>
       </div>
     </div>
   </div>
@@ -49,10 +51,12 @@
   src: url(../assets/font/Poppins/Poppins-SemiBold.ttf);
 }
 #home {
-  height: 820px;
+  height: fit-content;
   background-image: url("/background.png");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 a {
   font-size: 20px;
@@ -77,22 +81,15 @@ h6 {
 @media only screen and (max-width: 768px) {
   #home {
     background-image: url("/screen-1.jpeg");
-    display: grid;
-    grid-template-rows: 50% 50%;
-    height: fit-content;
-    row-gap: 2%;
-  }
-  #card {
-    width: fit-content;
     margin-left: 10%;
+    margin-top: 20%;
     margin-right: 10%;
-    margin-top: 10%;
-  }
-  #text-card {
-    align-content: center;
   }
   .img {
     display: none;
+  }
+  #text-card {
+    margin-top: 10%;
   }
 }
 </style>

@@ -75,5 +75,12 @@ h5 {
   letter-spacing: 3px;
 }
 @media only screen and (max-width: 768px) {
+  .container {
+    width: 330px;
+    margin: auto;
+  }
+  .img {
+    width: 180px;
+  }
 }
 </style>
