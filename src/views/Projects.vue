@@ -1,15 +1,8 @@
 <template>
   <div class="row project-page">
-    <div class="row projects">
-      <q-icon
-        class="q-mt-xs text-deep-orange-12"
-        name="mdi-square"
-        size="md"
-      ></q-icon>
-
-      <p class="text-h4">
-        Projects
-      </p>
+    <div class="text-h4" id="projects">
+      <q-icon id="icon" name="mdi-square" color="deep-orange-12"></q-icon>
+      Projects
     </div>
     <div class="col-md-12 q-mt-xl">
       <q-card class="my-card shadow-23" square>
@@ -50,7 +43,7 @@
   </div>
 </template>
 <style scoped>
-.projects {
+#projects {
   margin: auto;
 }
 .project-page {
