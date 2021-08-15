@@ -1,15 +1,8 @@
 <template>
   <div class="row" id="about">
-    <div class="row resume">
-      <q-icon
-        class="q-mt-xs text-deep-orange-12"
-        name="mdi-square"
-        size="md"
-      ></q-icon>
-
-      <p class="text-h4">
-        Resume
-      </p>
+    <div class="text-h4" id="about-icon">
+      <q-icon id="icon" name="mdi-square" color="deep-orange-12"></q-icon>
+      About
     </div>
     <br />
 
@@ -164,6 +157,10 @@ export default {
 };
 </script>
 <style scoped>
+#about-icon {
+  margin: auto;
+  margin-bottom: 10%;
+}
 #about {
   background-color: #ffe7cf;
   padding-left: 22%;
