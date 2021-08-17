@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <nav class="navbar">
-      <a href="#" class="nav-logo">HaiP.</a>
+      <router-link :to="{ name: 'home' }" class="nav-logo">HaiP.</router-link>
       <ul class="nav-menu">
         <li class="nav-item">
           <router-link :to="{ name: 'home' }" class="nav-link"
