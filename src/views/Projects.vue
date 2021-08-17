@@ -1,7 +1,7 @@
 <template>
   <div class="row project-page">
     <div class="text-h4" id="projects">
-      <q-icon id="icon" name="mdi-square" color="deep-orange-12"></q-icon>
+      <q-icon id="icon-page" name="mdi-square" color="deep-orange-12"></q-icon>
       Projects
     </div>
     <div class="col-md-12 q-mt-xl">
@@ -66,6 +66,11 @@
 }
 .text-h6 {
   font-weight: 900;
+}
+#icon-page {
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
 }
 </style>
 <script>

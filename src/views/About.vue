@@ -1,7 +1,7 @@
 <template>
   <div class="row" id="about">
     <div class="text-h4" id="about-icon">
-      <q-icon id="icon" name="mdi-square" color="deep-orange-12"></q-icon>
+      <q-icon id="icon-page" name="mdi-square" color="deep-orange-12"></q-icon>
       About
     </div>
     <br />
@@ -193,6 +193,11 @@ export default {
   vertical-align: middle;
   position: relative;
   top: -1px;
+}
+#icon-page {
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
 }
 #skill-card {
   padding: 20px;
